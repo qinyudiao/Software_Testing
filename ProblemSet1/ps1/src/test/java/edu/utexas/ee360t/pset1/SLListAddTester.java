@@ -21,7 +21,7 @@ public class SLListAddTester {
 		assertTrue(l.header != null);
 		// your code goes here
         assertTrue(l.header.elem == true);
-        assertTrue(l.header.next == null);
+        assertTrue(l.header.next == null); // assertNull(l.header.next);
 	}
 	@Test public void test1() {
 		SLList l = new SLList();
