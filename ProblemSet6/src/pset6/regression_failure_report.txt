@@ -1,0 +1,5 @@
+27 tests failed if the test suite is used to test against the webpage minandmax.html.
+These failures are not bugs in minandmax.html page, but are faulty tests beacause the
+output messages are supposed to be "max..." instead of "min...".
+Example error message: "expected: <min(-3, 0, 7) = -3> but was: <max(-3, 0, 7) = 7>".
+128*(1/2)*(3/4)*(3/4)*(3/4) = 27.
